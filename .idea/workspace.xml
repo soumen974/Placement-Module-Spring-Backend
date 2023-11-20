@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237beab0-9c90-4d80-913b-dc397819de4a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Placement-Module/src/main/java/com/placementmodule/Placement/Module/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Placement-Module/src/main/java/com/placementmodule/Placement/Module/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Placement-Module/src/main/java/com/placementmodule/Placement/Module/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Placement-Module/src/main/java/com/placementmodule/Placement/Module/controller/HrController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Placement-Module/src/main/java/com/placementmodule/Placement/Module/controller/HrJobPostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Placement-Module/src/main/java/com/placementmodule/Placement/Module/controller/UserAuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Placement-Module/src/main/java/com/placementmodule/Placement/Module/model/HR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Placement-Module/src/main/java/com/placementmodule/Placement/Module/model/HrJobPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Placement-Module/src/main/java/com/placementmodule/Placement/Module/model/UserAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Placement-Module/src/main/java/com/placementmodule/Placement/Module/repository/HRrepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Placement-Module/src/main/java/com/placementmodule/Placement/Module/repository/HrJobPostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Placement-Module/src/main/java/com/placementmodule/Placement/Module/repository/UserAuthRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1a7d7711-402c-44a4-8d42-07ee94ee919d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1a7d7711-402c-44a4-8d42-07ee94ee919d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Placement-Module/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Placement-Module/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,37 +40,43 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2Y8A4HCtfLMvUDFhoZuUG60yYZ2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/hp/OneDrive/Desktop/Placement Module",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hp/OneDrive/Desktop/fullstack-backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;12cb3ec9b81fbd04f8384799e1170788&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="PlacementModuleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Placement-Module" />
@@ -76,7 +94,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699896639434</updated>
-      <workItem from="1699896640588" duration="4152000" />
+      <workItem from="1699896640588" duration="4907000" />
+      <workItem from="1700137710380" duration="857000" />
+      <workItem from="1700139826196" duration="342000" />
+      <workItem from="1700142223204" duration="318000" />
+      <workItem from="1700142556741" duration="239000" />
+      <workItem from="1700142829136" duration="754000" />
+      <workItem from="1700143751376" duration="74000" />
+      <workItem from="1700143935850" duration="154000" />
+      <workItem from="1700207639896" duration="20000" />
+      <workItem from="1700247722918" duration="929000" />
+      <workItem from="1700302120664" duration="5144000" />
+      <workItem from="1700333760731" duration="4448000" />
+      <workItem from="1700375738311" duration="39000" />
+      <workItem from="1700384492122" duration="2235000" />
+      <workItem from="1700408505429" duration="8890000" />
+      <workItem from="1700454503948" duration="1468000" />
     </task>
     <servers />
   </component>
